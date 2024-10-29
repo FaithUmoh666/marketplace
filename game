@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Gaming Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #ffffff;
+        }
+
+        header {
+            background-color: #1e1e1e;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .main {
+            padding: 20px;
+        }
+
+        .featured-games {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .game {
+            background-color: #282828;
+            padding: 15px;
+            border-radius: 10px;
+            width: 30%;
+            text-align: center;
+        }
+
+        .game img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .game h3 {
+            margin-top: 15px;
+        }
+
+        footer {
+            background-color: #1e1e1e;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .game {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Simple Games</h1>
+    </header>
+
+    <!-- Main Content -->
+    <div class="main">
+        <h2>Featured Games</h2>
+        <div class="featured-games">
+            <!-- Game 1 -->
+            <div class="game">
+                <img src="https://via.placeholder.com/400x300" alt="Game 1">
+                <h3>Game Title 1</h3>
+                <p>A short description of the game.</p>
+            </div>
+
+            <!-- Game 2 -->
+            <div class="game">
+                <img src="https://via.placeholder.com/400x300" alt="Game 2">
+                <h3>Game Title 2</h3>
+                <p>A short description of the game.</p>
+            </div>
+
+            <!-- Game 3 -->
+            <div class="game">
+                <img src="https://via.placeholder.com/400x300" alt="Game 3">
+                <h3>Game Title 3</h3>
+                <p>A short description of the game.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Simple Games. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

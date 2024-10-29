@@ -1,0 +1,89 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GameZone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1 class="logo">GameZone</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Games</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div?
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome to GameZone</h2>
+            <p>Your #1 source for all things gaming.</p>
+            <a href="#" class="cta-btn">Explore Games</a>
+        </div>
+    </section>
+
+    <!-- Featured Games Section -->
+    <section class="featured-games">
+        <div class="container">
+            <h2>Featured Games</h2>
+            <div class="game-grid">
+                <div class="game-card">                    <img src=" storage/shared/sites/Civil War.png>
+                    <img src="./training/images/CivilWars.jpg">
+                    <h3>Civil War</h3>
+                    <p>Action-packed adventure awaits!</p>
+                </div>
+                <div class="game-card">
+                    <img src="game2.jpg" alt="Game 2">
+                    <h3>Fantasy Football</h3>
+                    <p>Fantasy battles and thrilling quests.</p>
+                </div>
+                <div class="game-card">
+                    <img src="game3.jpg" alt="Game 3">
+                    <h3>Racing Fever</h3>
+                    <p>Enter the world of fast-paced racing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest News Section -->
+    <section class="latest-news">
+        <div class="container">
+            <h2>Latest News</h2>
+            <div class="news-grid">
+                <article class="news-card">
+                    <h3>New Game Release</h3>
+                    <p>Get ready for the launch of the next big RPG game!</p>
+                </article>
+                <article class="news-card">
+                    <h3>eSports Tournament</h3>
+                    <p>Join the biggest eSports event this year.</p>
+                </article>
+                <article class="news-card">
+                    <h3>Update: Game Features</h3>
+                    <p>Check out the latest features added to your favorite game.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 GameZone. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
